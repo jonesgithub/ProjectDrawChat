@@ -13,8 +13,7 @@
 
 #### 感谢
 JavaBackend端由[yuercl](https://github.com/yuercl)所写。   
-非常感谢。   
-感谢大家对我的一些小想法的支持。    
+非常感谢。      
 
 #### iOS端效果
 
