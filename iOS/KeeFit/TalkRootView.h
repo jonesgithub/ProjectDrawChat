@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TalkConstant.h"
+#import "TalkEventRouter.h"
 
 @interface TalkRootView : UIView
 
-@property (nonatomic, strong) NSMutableArray *arrPoints;
-@property (nonatomic, strong) NSMutableArray *arrAllPoints;
+@property (nonatomic, strong) NSTimer *timerFreshView;
 
-- (void)sectionEnds;
+@property (nonatomic, strong) TalkEventRouter *talkEventRouterLocal;
+@property (nonatomic, strong) TalkEventRouter *talkEventRouterRemote;
 
 @end

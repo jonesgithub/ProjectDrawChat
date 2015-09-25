@@ -10,22 +10,26 @@
 	<string>Talk</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>A5061C6B63DEEB5A9BCA5C290EC0CDC1ED96EE4C</key>
+		<string>https://git.oschina.net/lichenarthur/Talk.git</string>
 		<key>DE8AB00B255B63CF1646EB7FB384CE1D6229C852</key>
 		<string>https://git.oschina.net/lichenarthur/lichen.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>project/聊天/Talk_0.0.0/Talk.xcworkspace</string>
+	<string>Talk_0.1.0/Talk.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>A5061C6B63DEEB5A9BCA5C290EC0CDC1ED96EE4C</key>
+		<string>../..</string>
 		<key>DE8AB00B255B63CF1646EB7FB384CE1D6229C852</key>
-		<string>../../../..</string>
+		<string>../../../oschina</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://git.oschina.net/lichenarthur/lichen.git</string>
+	<string>https://git.oschina.net/lichenarthur/Talk.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DE8AB00B255B63CF1646EB7FB384CE1D6229C852</string>
+	<string>A5061C6B63DEEB5A9BCA5C290EC0CDC1ED96EE4C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>DE8AB00B255B63CF1646EB7FB384CE1D6229C852</string>
 			<key>IDESourceControlWCCName</key>
 			<string>oschina</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A5061C6B63DEEB5A9BCA5C290EC0CDC1ED96EE4C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Talk</string>
 		</dict>
 	</array>
 </dict>

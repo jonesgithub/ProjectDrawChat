@@ -59,9 +59,15 @@
 //byte操作
 #import "ArthurByteOperation.h"
 
+//读取二维码
+#import "ArthurQR.h"
+
 //十六进制操作
 //应该放到byte操作里面去
 #import "ArthurHexOperation.h"
+
+//颜色转
+#import "UIColor+ColorHexConvert.h"
 
 @interface ArthurGlobalHeader : NSObject
 

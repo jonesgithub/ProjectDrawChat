@@ -8,6 +8,9 @@
 
 #import "CDKFAppDelegate.h"
 
+//友盟分享头文件
+#import "UMSocial.h"
+
 @implementation CDKFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -17,6 +20,9 @@
 //     @{ UITextAttributeTextColor: [UIColor whiteColor],
 //        UITextAttributeFont: [UIFont boldSystemFontOfSize:20],
 //        UITextAttributeTextShadowOffset: [NSValue valueWithUIOffset:UIOffsetZero]}];
+    
+    //隐藏菜单栏
+//    [application setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
     
     return YES;
 }
