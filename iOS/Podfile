@@ -1,0 +1,4 @@
+platform :ios,'7.0'
+pod 'LKDBHelper', '~> 1.4'
+pod 'ReactiveCocoaLayout', '~> 0.4'
+pod 'JBChartView', '~> 2.5.5'

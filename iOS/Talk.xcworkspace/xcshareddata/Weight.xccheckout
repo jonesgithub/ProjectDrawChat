@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0BB6A175-C984-43D8-A4FA-05ED4A15C03F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Weight</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0F773623-1ADB-4DB7-8F0F-AC303E92BB75</key>
+		<string>https://coding.net/lichen/Weight.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Weight_1.0.0/Weight.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0F773623-1ADB-4DB7-8F0F-AC303E92BB75</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://coding.net/lichen/Weight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0F773623-1ADB-4DB7-8F0F-AC303E92BB75</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0F773623-1ADB-4DB7-8F0F-AC303E92BB75</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Weight</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>咕咚手环2</key>
+	<string>Track activity and sleep condition with Bluetooth connection</string>
+	<key>咕咚手环S</key>
+	<string>Track activity and sleep condition with headphone jack connection</string>
+	<key>咕咚糖果</key>
+	<string>Track activity and sleep condition with Bluetooth connection</string>
+	<key>咕咚笑</key>
+	<string>Track activity and sleep condition with Bluetooth connection</string>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+//全局头文件
+#import "ReactiveCocoa.h"
+#import "CDKFUserSetting.h"
+
+//全局变量
+#import "CDKFKeeFitConstant.h"
+
+//全局设备管理
+#import "CDKFDeviceManager.h"
+
+//全局UI
+#import "CDKFUIConstant.h"
+#import "CDKFUIDevice.h"
+
+//引入Arthur库
+#import "ArthurGlobalHeader.h"
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#import "ArthurMarco.h"
+
+
+
+
+
+
+
+

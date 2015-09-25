@@ -1,0 +1,1500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB03638A1958232600913F43 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0363891958232600913F43 /* CoreAudio.framework */; };
+		DB05F7EC19B59EBE002314CD /* DeviceWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05F7EB19B59EBE002314CD /* DeviceWeight.m */; };
+		DB05F7F319B5ABC3002314CD /* LenovoBand.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB05F7F219B5ABC3002314CD /* LenovoBand.storyboard */; };
+		DB0D1BA1195C081100923DB5 /* AnimationButtonGroup2.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D1B9E195C081100923DB5 /* AnimationButtonGroup2.m */; };
+		DB0D1BA2195C081100923DB5 /* ArthurAnimationButton2.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D1BA0195C081100923DB5 /* ArthurAnimationButton2.m */; };
+		DB0DC871196D0A410047483B /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0DC86F196D0A400047483B /* GTMBase64.m */; };
+		DB0E03971955345D00A63D53 /* ArthurProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0E03961955345D00A63D53 /* ArthurProgressView.m */; };
+		DB0E039E195551E300A63D53 /* ArthurCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0E039D195551E300A63D53 /* ArthurCircleProgress.m */; };
+		DB0E35B1195D0739007022CA /* DeviceType.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB0E35B0195D0739007022CA /* DeviceType.plist */; };
+		DB0E35B5195D0863007022CA /* DeviceImagePrefix.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB0E35B4195D0863007022CA /* DeviceImagePrefix.plist */; };
+		DB0E35B9195D0A1E007022CA /* CDKFUIDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0E35B8195D0A1E007022CA /* CDKFUIDevice.m */; };
+		DB0F3A67192AE6E200D27FDD /* ArthurActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A4F192AE6E200D27FDD /* ArthurActionSheet.m */; };
+		DB0F3A69192AE6E200D27FDD /* ArthurFile.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A53192AE6E200D27FDD /* ArthurFile.m */; };
+		DB0F3A6A192AE6E200D27FDD /* ArthurNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A55192AE6E200D27FDD /* ArthurNetworkOperation.m */; };
+		DB0F3A6B192AE6E200D27FDD /* ArthurNetworkOperation2.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A57192AE6E200D27FDD /* ArthurNetworkOperation2.m */; };
+		DB0F3A6C192AE6E200D27FDD /* MNLib.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A59192AE6E200D27FDD /* MNLib.m */; };
+		DB0F3A6D192AE6E200D27FDD /* NSDate+ArthurDate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A5B192AE6E200D27FDD /* NSDate+ArthurDate.m */; };
+		DB0F3A6E192AE6E200D27FDD /* NSJSONSerialization+ArthurJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A5D192AE6E200D27FDD /* NSJSONSerialization+ArthurJSON.m */; };
+		DB0F3A70192AE6E200D27FDD /* UIView+FindFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A63192AE6E200D27FDD /* UIView+FindFirstResponder.m */; };
+		DB0F3A71192AE6E200D27FDD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A66192AE6E200D27FDD /* MBProgressHUD.m */; };
+		DB0F3A78192AEAFD00D27FDD /* NSArray+NSArrayOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A77192AEAFD00D27FDD /* NSArray+NSArrayOperation.m */; };
+		DB0F3A85192AF05B00D27FDD /* ArthurStringAndObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F3A84192AF05B00D27FDD /* ArthurStringAndObject.m */; };
+		DB1A321D1964FBF400EA9153 /* ArthurSerialBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A321C1964FBF400EA9153 /* ArthurSerialBase.m */; };
+		DB1A326619652AD100EA9153 /* ArthurLabelGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A326519652AD100EA9153 /* ArthurLabelGroup.m */; };
+		DB1A326B1965335200EA9153 /* KLSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A326A1965335200EA9153 /* KLSwitch.m */; };
+		DB1CFAFD1951276B003424FD /* CDKFDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1CFAFC1951276B003424FD /* CDKFDeviceManager.m */; };
+		DB24D88719D854C5008E9380 /* TalkRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB24D88619D854C5008E9380 /* TalkRootViewController.m */; };
+		DB24D88D19D8588A008E9380 /* TalkRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB24D88C19D8588A008E9380 /* TalkRootView.m */; };
+		DB3BB1F719C170C700CC5D41 /* DeviceLenevo.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3BB1F619C170C700CC5D41 /* DeviceLenevo.m */; };
+		DB45022B194E868100C6520B /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45022A194E868100C6520B /* UIViewController+BackButtonHandler.m */; };
+		DB45022E194E8D1900C6520B /* ArthurNormalActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45022D194E8D1900C6520B /* ArthurNormalActionSheet.m */; };
+		DB4502ED194F44BB00C6520B /* ArthurScreenShoot.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4502EC194F44BB00C6520B /* ArthurScreenShoot.m */; };
+		DB450333194FF0E800C6520B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB450332194FF0E800C6520B /* MediaPlayer.framework */; };
+		DB450335194FF0F400C6520B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB450334194FF0F400C6520B /* AVFoundation.framework */; };
+		DB450337194FF10300C6520B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB450336194FF10300C6520B /* AudioToolbox.framework */; };
+		DB5AB0C019346DFB0005A9A1 /* ArthurDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5AB0BF19346DFB0005A9A1 /* ArthurDraw.m */; };
+		DB61E749193576B100F856B0 /* DeviceSportSleep.m in Sources */ = {isa = PBXBuildFile; fileRef = DB61E748193576B100F856B0 /* DeviceSportSleep.m */; };
+		DB6C61FA19371AEC00183A33 /* ArthurUnitChange.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6C61F919371AEC00183A33 /* ArthurUnitChange.m */; };
+		DB6CAD4A19527582002A5FB3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB6CAD4C19527582002A5FB3 /* Localizable.strings */; };
+		DB6CAD78195295E2002A5FB3 /* ArthurCompatible.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6CAD77195295E2002A5FB3 /* ArthurCompatible.m */; };
+		DB8F1C8119540E00002CFCD4 /* ArthurUINormal.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F1C8019540E00002CFCD4 /* ArthurUINormal.m */; };
+		DB8F1C8919552EB8002CFCD4 /* THProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F1C8819552EB8002CFCD4 /* THProgressView.m */; };
+		DB9B55DB1925DEE300BCD608 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9B55DA1925DEE300BCD608 /* Foundation.framework */; };
+		DB9B55DD1925DEE300BCD608 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9B55DC1925DEE300BCD608 /* CoreGraphics.framework */; };
+		DB9B55DF1925DEE300BCD608 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9B55DE1925DEE300BCD608 /* UIKit.framework */; };
+		DB9B55E51925DEE300BCD608 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB9B55E31925DEE300BCD608 /* InfoPlist.strings */; };
+		DB9B55E71925DEE300BCD608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B55E61925DEE300BCD608 /* main.m */; };
+		DB9B55EB1925DEE300BCD608 /* CDKFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B55EA1925DEE300BCD608 /* CDKFAppDelegate.m */; };
+		DB9B55F31925DEE300BCD608 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9B55F21925DEE300BCD608 /* Images.xcassets */; };
+		DB9B55FA1925DEE400BCD608 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9B55F91925DEE400BCD608 /* XCTest.framework */; };
+		DB9B55FB1925DEE400BCD608 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9B55DA1925DEE300BCD608 /* Foundation.framework */; };
+		DB9B55FC1925DEE400BCD608 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9B55DE1925DEE300BCD608 /* UIKit.framework */; };
+		DB9B56041925DEE400BCD608 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB9B56021925DEE400BCD608 /* InfoPlist.strings */; };
+		DB9B56061925DEE400BCD608 /* KeeFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B56051925DEE400BCD608 /* KeeFitTests.m */; };
+		DB9B56161925DF2400BCD608 /* BLEConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B56121925DF2400BCD608 /* BLEConnection.m */; };
+		DB9B56171925DF2400BCD608 /* HardwareBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B56141925DF2400BCD608 /* HardwareBluetooth.m */; };
+		DBAF2F77192C43F7006BD891 /* ArthurHexOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF2F76192C43F7006BD891 /* ArthurHexOperation.m */; };
+		DBBA8AD7193F6E2D00A3A82D /* ArthurMarco.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBA8AD6193F6E2D00A3A82D /* ArthurMarco.m */; };
+		DBBC64A7195A9000001F9880 /* ArthurBlockChain.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC64A6195A9000001F9880 /* ArthurBlockChain.m */; };
+		DBBC64AA195A907A001F9880 /* ArthurBlockChain2.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBC64A9195A907A001F9880 /* ArthurBlockChain2.m */; };
+		DBBE08061974CEDE002C8E10 /* DataAnalyze.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBE08051974CEDE002C8E10 /* DataAnalyze.m */; };
+		DBC4BEDF1980AE820008E516 /* btn_csh_0.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BEC71980AE820008E516 /* btn_csh_0.png */; };
+		DBC4BEE01980AE820008E516 /* btn_csh_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BEC81980AE820008E516 /* btn_csh_0@2x.png */; };
+		DBC4BEE11980AE820008E516 /* btn_js_0.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BEC91980AE820008E516 /* btn_js_0.png */; };
+		DBC4BEE21980AE820008E516 /* btn_js_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BECA1980AE820008E516 /* btn_js_0@2x.png */; };
+		DBC4BEE31980AE820008E516 /* ic_arro2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BECB1980AE820008E516 /* ic_arro2.png */; };
+		DBC4BEE41980AE820008E516 /* ic_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BECC1980AE820008E516 /* ic_arrow@2x.png */; };
+		DBC4BEE51980AE820008E516 /* ic_back.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BECD1980AE820008E516 /* ic_back.png */; };
+		DBC4BEE61980AE820008E516 /* ic_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BECE1980AE820008E516 /* ic_back@2x.png */; };
+		DBC4BEE71980AE820008E516 /* ic_burn.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BECF1980AE820008E516 /* ic_burn.png */; };
+		DBC4BEE81980AE820008E516 /* ic_burn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BED01980AE820008E516 /* ic_burn@2x.png */; };
+		DBC4BEE91980AE820008E516 /* ic_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BED11980AE820008E516 /* ic_settings.png */; };
+		DBC4BEEA1980AE820008E516 /* ic_settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BED21980AE820008E516 /* ic_settings@2x.png */; };
+		DBC4BEEB1980AE820008E516 /* ic_speed.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BED31980AE820008E516 /* ic_speed.png */; };
+		DBC4BEEC1980AE820008E516 /* ic_speed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BED41980AE820008E516 /* ic_speed@2x.png */; };
+		DBC4BEED1980AE820008E516 /* ic_time.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BED51980AE820008E516 /* ic_time.png */; };
+		DBC4BEEE1980AE820008E516 /* ic_time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BED61980AE820008E516 /* ic_time@2x.png */; };
+		DBC4BEEF1980AE820008E516 /* pic_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BED71980AE820008E516 /* pic_bg.png */; };
+		DBC4BEF01980AE820008E516 /* pic_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BED81980AE820008E516 /* pic_bg@2x.png */; };
+		DBC4BEF11980AE820008E516 /* pic_burn.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BED91980AE820008E516 /* pic_burn.png */; };
+		DBC4BEF21980AE820008E516 /* pic_burn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BEDA1980AE820008E516 /* pic_burn@2x.png */; };
+		DBC4BEF31980AE820008E516 /* pic_speed.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BEDB1980AE820008E516 /* pic_speed.png */; };
+		DBC4BEF41980AE820008E516 /* pic_speed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BEDC1980AE820008E516 /* pic_speed@2x.png */; };
+		DBC4BEF51980AE820008E516 /* pic_time.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BEDD1980AE820008E516 /* pic_time.png */; };
+		DBC4BEF61980AE820008E516 /* pic_time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC4BEDE1980AE820008E516 /* pic_time@2x.png */; };
+		DBC7345A1973A770000401BC /* HardwareBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC734591973A770000401BC /* HardwareBase.m */; };
+		DBCD536F197F5926009BAE0E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCD536E197F5926009BAE0E /* CoreMedia.framework */; };
+		DBCD5371197F5938009BAE0E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCD5370197F5938009BAE0E /* CoreVideo.framework */; };
+		DBCD5373197F5943009BAE0E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCD5372197F5943009BAE0E /* QuartzCore.framework */; };
+		DBCD5375197F594F009BAE0E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCD5374197F594F009BAE0E /* libiconv.dylib */; };
+		DBCD537A197F9346009BAE0E /* DeviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCD5379197F9346009BAE0E /* DeviceBase.m */; };
+		DBCD5383197F9B10009BAE0E /* DeviceTreadmill.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCD5382197F9B10009BAE0E /* DeviceTreadmill.m */; };
+		DBCD5386197FA22E009BAE0E /* DeviceTreadmillManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCD5385197FA22E009BAE0E /* DeviceTreadmillManager.m */; };
+		DBD3FBE3195D4A9E002A4076 /* DeviceName.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBD3FBE5195D4A9E002A4076 /* DeviceName.plist */; };
+		DBD3FBE7195D4AAB002A4076 /* DeviceDescription.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBD3FBE9195D4AAB002A4076 /* DeviceDescription.plist */; };
+		DBDCEABA19482E5600220947 /* ArthurDialogSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDCEAB919482E5600220947 /* ArthurDialogSegue.m */; };
+		DBDCEB0D19483AA400220947 /* ArthurSingleSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDCEB0B19483AA400220947 /* ArthurSingleSelectTableViewController.m */; };
+		DBDCEB0E19483AA400220947 /* ArthurSingleSelectTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDCEB0C19483AA400220947 /* ArthurSingleSelectTableViewController.xib */; };
+		DBDCEB1C194858F400220947 /* ArthurDialogSinglePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDCEB1A194858F400220947 /* ArthurDialogSinglePickerViewController.m */; };
+		DBDCEB1D194858F400220947 /* ArthurDialogSinglePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDCEB1B194858F400220947 /* ArthurDialogSinglePickerViewController.xib */; };
+		DBDDCD8F19493C1300907D05 /* ArthurFixSectionHeadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDDCD8E19493C1300907D05 /* ArthurFixSectionHeadTableViewController.m */; };
+		DBDDCD9219493CD600907D05 /* ArthurGlobalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDDCD9119493CD600907D05 /* ArthurGlobalHeader.m */; };
+		DBDDCD96194944BB00907D05 /* ArthurDialogTimePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDDCD94194944BB00907D05 /* ArthurDialogTimePickerController.m */; };
+		DBDDCD97194944BB00907D05 /* ArthurDialogTimePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDDCD95194944BB00907D05 /* ArthurDialogTimePickerController.xib */; };
+		DBDEBDD71963FAB2006BFC2F /* ArthurProgressWithPercentLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDEBDD61963FAB2006BFC2F /* ArthurProgressWithPercentLabelView.m */; };
+		DBE11DB6194999F700E0BB41 /* AnimationButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE11DB3194999F700E0BB41 /* AnimationButtonGroup.m */; };
+		DBE11DB7194999F700E0BB41 /* ArthurAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE11DB5194999F700E0BB41 /* ArthurAnimationButton.m */; };
+		DBF0DC281956A1A700357265 /* ArthurApp.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0DC271956A1A700357265 /* ArthurApp.m */; };
+		DBF51120FF62452587C26E23 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DB8228DAEA4E9BA2649938 /* libPods.a */; };
+		DBF690E91973B98E0040ABD1 /* CDKFUserSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF690E81973B98E0040ABD1 /* CDKFUserSetting.m */; };
+		DBF690EC1973BBCD0040ABD1 /* CDKFUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF690EB1973BBCD0040ABD1 /* CDKFUITableViewController.m */; };
+		DBF690F01973D8CF0040ABD1 /* ArthurByteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF690EF1973D8CF0040ABD1 /* ArthurByteOperation.m */; };
+		DBFFA9821946E4900017391C /* ArthurTableViewLocalPop.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFFA9811946E4900017391C /* ArthurTableViewLocalPop.m */; };
+		DBFFA99719474C2C0017391C /* ArthurSinglePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFFA99119474C2C0017391C /* ArthurSinglePicker.m */; };
+		DBFFA99819474C2C0017391C /* ArthurSinglePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFFA99219474C2C0017391C /* ArthurSinglePicker.xib */; };
+		DBFFA99919474C2C0017391C /* ArthurTimePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFFA99519474C2C0017391C /* ArthurTimePickerController.m */; };
+		DBFFA99A19474C2C0017391C /* ArthurTimePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFFA99619474C2C0017391C /* ArthurTimePickerController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9B55FD1925DEE400BCD608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9B55CF1925DEE300BCD608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9B55D61925DEE300BCD608;
+			remoteInfo = KeeFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C8E7D07E8E7493ABDA08A84 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A0DB8228DAEA4E9BA2649938 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0363891958232600913F43 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		DB05F7EA19B59EBE002314CD /* DeviceWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceWeight.h; sourceTree = "<group>"; };
+		DB05F7EB19B59EBE002314CD /* DeviceWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceWeight.m; sourceTree = "<group>"; };
+		DB05F7F119B59F0D002314CD /* DeviceWeightCommandMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceWeightCommandMap.h; sourceTree = "<group>"; };
+		DB05F7F219B5ABC3002314CD /* LenovoBand.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LenovoBand.storyboard; sourceTree = "<group>"; };
+		DB0D1B9E195C081100923DB5 /* AnimationButtonGroup2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationButtonGroup2.m; sourceTree = "<group>"; };
+		DB0D1B9F195C081100923DB5 /* ArthurAnimationButton2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurAnimationButton2.h; sourceTree = "<group>"; };
+		DB0D1BA0195C081100923DB5 /* ArthurAnimationButton2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurAnimationButton2.m; sourceTree = "<group>"; };
+		DB0D1BA3195C083700923DB5 /* AnimationButtonGroup2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationButtonGroup2.h; sourceTree = "<group>"; };
+		DB0DC86E196D0A400047483B /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		DB0DC86F196D0A400047483B /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		DB0DC870196D0A410047483B /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		DB0E03951955345D00A63D53 /* ArthurProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurProgressView.h; sourceTree = "<group>"; };
+		DB0E03961955345D00A63D53 /* ArthurProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurProgressView.m; sourceTree = "<group>"; };
+		DB0E039C195551E300A63D53 /* ArthurCircleProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurCircleProgress.h; sourceTree = "<group>"; };
+		DB0E039D195551E300A63D53 /* ArthurCircleProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurCircleProgress.m; sourceTree = "<group>"; };
+		DB0E35B0195D0739007022CA /* DeviceType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeviceType.plist; sourceTree = "<group>"; };
+		DB0E35B4195D0863007022CA /* DeviceImagePrefix.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeviceImagePrefix.plist; sourceTree = "<group>"; };
+		DB0E35B7195D0A1E007022CA /* CDKFUIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKFUIDevice.h; sourceTree = "<group>"; };
+		DB0E35B8195D0A1E007022CA /* CDKFUIDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKFUIDevice.m; sourceTree = "<group>"; };
+		DB0F3A4E192AE6E200D27FDD /* ArthurActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurActionSheet.h; sourceTree = "<group>"; };
+		DB0F3A4F192AE6E200D27FDD /* ArthurActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurActionSheet.m; sourceTree = "<group>"; };
+		DB0F3A52192AE6E200D27FDD /* ArthurFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurFile.h; sourceTree = "<group>"; };
+		DB0F3A53192AE6E200D27FDD /* ArthurFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurFile.m; sourceTree = "<group>"; };
+		DB0F3A54192AE6E200D27FDD /* ArthurNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurNetworkOperation.h; sourceTree = "<group>"; };
+		DB0F3A55192AE6E200D27FDD /* ArthurNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurNetworkOperation.m; sourceTree = "<group>"; };
+		DB0F3A56192AE6E200D27FDD /* ArthurNetworkOperation2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurNetworkOperation2.h; sourceTree = "<group>"; };
+		DB0F3A57192AE6E200D27FDD /* ArthurNetworkOperation2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurNetworkOperation2.m; sourceTree = "<group>"; };
+		DB0F3A58192AE6E200D27FDD /* MNLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLib.h; sourceTree = "<group>"; };
+		DB0F3A59192AE6E200D27FDD /* MNLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLib.m; sourceTree = "<group>"; };
+		DB0F3A5A192AE6E200D27FDD /* NSDate+ArthurDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ArthurDate.h"; sourceTree = "<group>"; };
+		DB0F3A5B192AE6E200D27FDD /* NSDate+ArthurDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ArthurDate.m"; sourceTree = "<group>"; };
+		DB0F3A5C192AE6E200D27FDD /* NSJSONSerialization+ArthurJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+ArthurJSON.h"; sourceTree = "<group>"; };
+		DB0F3A5D192AE6E200D27FDD /* NSJSONSerialization+ArthurJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+ArthurJSON.m"; sourceTree = "<group>"; };
+		DB0F3A62192AE6E200D27FDD /* UIView+FindFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindFirstResponder.h"; sourceTree = "<group>"; };
+		DB0F3A63192AE6E200D27FDD /* UIView+FindFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindFirstResponder.m"; sourceTree = "<group>"; };
+		DB0F3A65192AE6E200D27FDD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DB0F3A66192AE6E200D27FDD /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DB0F3A76192AEAFD00D27FDD /* NSArray+NSArrayOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSArrayOperation.h"; sourceTree = "<group>"; };
+		DB0F3A77192AEAFD00D27FDD /* NSArray+NSArrayOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSArrayOperation.m"; sourceTree = "<group>"; };
+		DB0F3A83192AF05B00D27FDD /* ArthurStringAndObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurStringAndObject.h; sourceTree = "<group>"; };
+		DB0F3A84192AF05B00D27FDD /* ArthurStringAndObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurStringAndObject.m; sourceTree = "<group>"; };
+		DB1A321B1964FBF400EA9153 /* ArthurSerialBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurSerialBase.h; sourceTree = "<group>"; };
+		DB1A321C1964FBF400EA9153 /* ArthurSerialBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurSerialBase.m; sourceTree = "<group>"; };
+		DB1A326419652AD100EA9153 /* ArthurLabelGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurLabelGroup.h; sourceTree = "<group>"; };
+		DB1A326519652AD100EA9153 /* ArthurLabelGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurLabelGroup.m; sourceTree = "<group>"; };
+		DB1A32691965335200EA9153 /* KLSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLSwitch.h; sourceTree = "<group>"; };
+		DB1A326A1965335200EA9153 /* KLSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLSwitch.m; sourceTree = "<group>"; };
+		DB1CFAFB1951276B003424FD /* CDKFDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKFDeviceManager.h; sourceTree = "<group>"; };
+		DB1CFAFC1951276B003424FD /* CDKFDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKFDeviceManager.m; sourceTree = "<group>"; };
+		DB21236D192EF4DB009B8E43 /* CDKFKeeFitConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDKFKeeFitConstant.h; sourceTree = "<group>"; };
+		DB24D88519D854C5008E9380 /* TalkRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkRootViewController.h; sourceTree = "<group>"; };
+		DB24D88619D854C5008E9380 /* TalkRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkRootViewController.m; sourceTree = "<group>"; };
+		DB24D88B19D8588A008E9380 /* TalkRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkRootView.h; sourceTree = "<group>"; };
+		DB24D88C19D8588A008E9380 /* TalkRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkRootView.m; sourceTree = "<group>"; };
+		DB3BB1F519C170C700CC5D41 /* DeviceLenevo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceLenevo.h; sourceTree = "<group>"; };
+		DB3BB1F619C170C700CC5D41 /* DeviceLenevo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceLenevo.m; sourceTree = "<group>"; };
+		DB450229194E868100C6520B /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		DB45022A194E868100C6520B /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		DB45022C194E8D1900C6520B /* ArthurNormalActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurNormalActionSheet.h; sourceTree = "<group>"; };
+		DB45022D194E8D1900C6520B /* ArthurNormalActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurNormalActionSheet.m; sourceTree = "<group>"; };
+		DB4502EB194F44BB00C6520B /* ArthurScreenShoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurScreenShoot.h; sourceTree = "<group>"; };
+		DB4502EC194F44BB00C6520B /* ArthurScreenShoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurScreenShoot.m; sourceTree = "<group>"; };
+		DB450332194FF0E800C6520B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DB450334194FF0F400C6520B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB450336194FF10300C6520B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DB5AB0BE19346DFB0005A9A1 /* ArthurDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurDraw.h; sourceTree = "<group>"; };
+		DB5AB0BF19346DFB0005A9A1 /* ArthurDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurDraw.m; sourceTree = "<group>"; };
+		DB61E747193576B100F856B0 /* DeviceSportSleep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSportSleep.h; sourceTree = "<group>"; };
+		DB61E748193576B100F856B0 /* DeviceSportSleep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceSportSleep.m; sourceTree = "<group>"; };
+		DB6C61F819371AEC00183A33 /* ArthurUnitChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurUnitChange.h; sourceTree = "<group>"; };
+		DB6C61F919371AEC00183A33 /* ArthurUnitChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurUnitChange.m; sourceTree = "<group>"; };
+		DB6CAD76195295E2002A5FB3 /* ArthurCompatible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurCompatible.h; sourceTree = "<group>"; };
+		DB6CAD77195295E2002A5FB3 /* ArthurCompatible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurCompatible.m; sourceTree = "<group>"; };
+		DB8F1C7F19540E00002CFCD4 /* ArthurUINormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurUINormal.h; sourceTree = "<group>"; };
+		DB8F1C8019540E00002CFCD4 /* ArthurUINormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurUINormal.m; sourceTree = "<group>"; };
+		DB8F1C8719552EB8002CFCD4 /* THProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THProgressView.h; sourceTree = "<group>"; };
+		DB8F1C8819552EB8002CFCD4 /* THProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THProgressView.m; sourceTree = "<group>"; };
+		DB9B55D71925DEE300BCD608 /* Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9B55DA1925DEE300BCD608 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB9B55DC1925DEE300BCD608 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB9B55DE1925DEE300BCD608 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB9B55E21925DEE300BCD608 /* KeeFit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeeFit-Info.plist"; sourceTree = "<group>"; };
+		DB9B55E41925DEE300BCD608 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB9B55E61925DEE300BCD608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB9B55E81925DEE300BCD608 /* Talk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Talk-Prefix.pch"; sourceTree = "<group>"; };
+		DB9B55E91925DEE300BCD608 /* CDKFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDKFAppDelegate.h; sourceTree = "<group>"; };
+		DB9B55EA1925DEE300BCD608 /* CDKFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDKFAppDelegate.m; sourceTree = "<group>"; };
+		DB9B55F21925DEE300BCD608 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB9B55F81925DEE400BCD608 /* TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9B55F91925DEE400BCD608 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB9B56011925DEE400BCD608 /* LenovoBandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LenovoBandTests-Info.plist"; sourceTree = "<group>"; };
+		DB9B56031925DEE400BCD608 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB9B56051925DEE400BCD608 /* KeeFitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeeFitTests.m; sourceTree = "<group>"; };
+		DB9B56111925DF2400BCD608 /* BLEConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEConnection.h; sourceTree = "<group>"; };
+		DB9B56121925DF2400BCD608 /* BLEConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEConnection.m; sourceTree = "<group>"; };
+		DB9B56131925DF2400BCD608 /* HardwareBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardwareBluetooth.h; sourceTree = "<group>"; };
+		DB9B56141925DF2400BCD608 /* HardwareBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardwareBluetooth.m; sourceTree = "<group>"; };
+		DBAF2F75192C43F7006BD891 /* ArthurHexOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurHexOperation.h; sourceTree = "<group>"; };
+		DBAF2F76192C43F7006BD891 /* ArthurHexOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurHexOperation.m; sourceTree = "<group>"; };
+		DBBA8AD5193F6E2D00A3A82D /* ArthurMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurMarco.h; sourceTree = "<group>"; };
+		DBBA8AD6193F6E2D00A3A82D /* ArthurMarco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurMarco.m; sourceTree = "<group>"; };
+		DBBC64A5195A9000001F9880 /* ArthurBlockChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurBlockChain.h; sourceTree = "<group>"; };
+		DBBC64A6195A9000001F9880 /* ArthurBlockChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurBlockChain.m; sourceTree = "<group>"; };
+		DBBC64A8195A907A001F9880 /* ArthurBlockChain2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurBlockChain2.h; sourceTree = "<group>"; };
+		DBBC64A9195A907A001F9880 /* ArthurBlockChain2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurBlockChain2.m; sourceTree = "<group>"; };
+		DBBE08041974CEDE002C8E10 /* DataAnalyze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAnalyze.h; sourceTree = "<group>"; };
+		DBBE08051974CEDE002C8E10 /* DataAnalyze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAnalyze.m; sourceTree = "<group>"; };
+		DBC4BEC71980AE820008E516 /* btn_csh_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_csh_0.png; sourceTree = "<group>"; };
+		DBC4BEC81980AE820008E516 /* btn_csh_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_csh_0@2x.png"; sourceTree = "<group>"; };
+		DBC4BEC91980AE820008E516 /* btn_js_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_js_0.png; sourceTree = "<group>"; };
+		DBC4BECA1980AE820008E516 /* btn_js_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_js_0@2x.png"; sourceTree = "<group>"; };
+		DBC4BECB1980AE820008E516 /* ic_arro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_arro2.png; sourceTree = "<group>"; };
+		DBC4BECC1980AE820008E516 /* ic_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_arrow@2x.png"; sourceTree = "<group>"; };
+		DBC4BECD1980AE820008E516 /* ic_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_back.png; sourceTree = "<group>"; };
+		DBC4BECE1980AE820008E516 /* ic_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back@2x.png"; sourceTree = "<group>"; };
+		DBC4BECF1980AE820008E516 /* ic_burn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_burn.png; sourceTree = "<group>"; };
+		DBC4BED01980AE820008E516 /* ic_burn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_burn@2x.png"; sourceTree = "<group>"; };
+		DBC4BED11980AE820008E516 /* ic_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_settings.png; sourceTree = "<group>"; };
+		DBC4BED21980AE820008E516 /* ic_settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_settings@2x.png"; sourceTree = "<group>"; };
+		DBC4BED31980AE820008E516 /* ic_speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_speed.png; sourceTree = "<group>"; };
+		DBC4BED41980AE820008E516 /* ic_speed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_speed@2x.png"; sourceTree = "<group>"; };
+		DBC4BED51980AE820008E516 /* ic_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_time.png; sourceTree = "<group>"; };
+		DBC4BED61980AE820008E516 /* ic_time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_time@2x.png"; sourceTree = "<group>"; };
+		DBC4BED71980AE820008E516 /* pic_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_bg.png; sourceTree = "<group>"; };
+		DBC4BED81980AE820008E516 /* pic_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_bg@2x.png"; sourceTree = "<group>"; };
+		DBC4BED91980AE820008E516 /* pic_burn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_burn.png; sourceTree = "<group>"; };
+		DBC4BEDA1980AE820008E516 /* pic_burn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_burn@2x.png"; sourceTree = "<group>"; };
+		DBC4BEDB1980AE820008E516 /* pic_speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_speed.png; sourceTree = "<group>"; };
+		DBC4BEDC1980AE820008E516 /* pic_speed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_speed@2x.png"; sourceTree = "<group>"; };
+		DBC4BEDD1980AE820008E516 /* pic_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_time.png; sourceTree = "<group>"; };
+		DBC4BEDE1980AE820008E516 /* pic_time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_time@2x.png"; sourceTree = "<group>"; };
+		DBC734581973A770000401BC /* HardwareBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardwareBase.h; sourceTree = "<group>"; };
+		DBC734591973A770000401BC /* HardwareBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardwareBase.m; sourceTree = "<group>"; };
+		DBCD536E197F5926009BAE0E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DBCD5370197F5938009BAE0E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DBCD5372197F5943009BAE0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DBCD5374197F594F009BAE0E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		DBCD5377197F8FA3009BAE0E /* DeviceDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceDelegate.h; sourceTree = "<group>"; };
+		DBCD5378197F9346009BAE0E /* DeviceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceBase.h; sourceTree = "<group>"; };
+		DBCD5379197F9346009BAE0E /* DeviceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceBase.m; sourceTree = "<group>"; };
+		DBCD5380197F9657009BAE0E /* DeviceTreadmillCommandMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTreadmillCommandMap.h; sourceTree = "<group>"; };
+		DBCD5381197F9B10009BAE0E /* DeviceTreadmill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTreadmill.h; sourceTree = "<group>"; };
+		DBCD5382197F9B10009BAE0E /* DeviceTreadmill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTreadmill.m; sourceTree = "<group>"; };
+		DBCD5384197FA22E009BAE0E /* DeviceTreadmillManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTreadmillManager.h; sourceTree = "<group>"; };
+		DBCD5385197FA22E009BAE0E /* DeviceTreadmillManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTreadmillManager.m; sourceTree = "<group>"; };
+		DBD3FBE4195D4A9E002A4076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/DeviceName.plist; sourceTree = "<group>"; };
+		DBD3FBE6195D4AA4002A4076 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/DeviceName.plist"; sourceTree = "<group>"; };
+		DBD3FBE8195D4AAB002A4076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/DeviceDescription.plist; sourceTree = "<group>"; };
+		DBD3FBEA195D4AAF002A4076 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/DeviceDescription.plist"; sourceTree = "<group>"; };
+		DBD3FBEF195D4C96002A4076 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DBD3FBF0195D6B84002A4076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DBD3FBF4195D727D002A4076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DBDCEAB819482E5600220947 /* ArthurDialogSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurDialogSegue.h; sourceTree = "<group>"; };
+		DBDCEAB919482E5600220947 /* ArthurDialogSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurDialogSegue.m; sourceTree = "<group>"; };
+		DBDCEB0A19483AA400220947 /* ArthurSingleSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurSingleSelectTableViewController.h; sourceTree = "<group>"; };
+		DBDCEB0B19483AA400220947 /* ArthurSingleSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurSingleSelectTableViewController.m; sourceTree = "<group>"; };
+		DBDCEB0C19483AA400220947 /* ArthurSingleSelectTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArthurSingleSelectTableViewController.xib; sourceTree = "<group>"; };
+		DBDCEB19194858F400220947 /* ArthurDialogSinglePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurDialogSinglePickerViewController.h; sourceTree = "<group>"; };
+		DBDCEB1A194858F400220947 /* ArthurDialogSinglePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurDialogSinglePickerViewController.m; sourceTree = "<group>"; };
+		DBDCEB1B194858F400220947 /* ArthurDialogSinglePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArthurDialogSinglePickerViewController.xib; sourceTree = "<group>"; };
+		DBDDCD8D19493C1300907D05 /* ArthurFixSectionHeadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurFixSectionHeadTableViewController.h; sourceTree = "<group>"; };
+		DBDDCD8E19493C1300907D05 /* ArthurFixSectionHeadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurFixSectionHeadTableViewController.m; sourceTree = "<group>"; };
+		DBDDCD9019493CD600907D05 /* ArthurGlobalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurGlobalHeader.h; sourceTree = "<group>"; };
+		DBDDCD9119493CD600907D05 /* ArthurGlobalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurGlobalHeader.m; sourceTree = "<group>"; };
+		DBDDCD93194944BB00907D05 /* ArthurDialogTimePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurDialogTimePickerController.h; sourceTree = "<group>"; };
+		DBDDCD94194944BB00907D05 /* ArthurDialogTimePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurDialogTimePickerController.m; sourceTree = "<group>"; };
+		DBDDCD95194944BB00907D05 /* ArthurDialogTimePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArthurDialogTimePickerController.xib; sourceTree = "<group>"; };
+		DBDEBDD51963FAB2006BFC2F /* ArthurProgressWithPercentLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurProgressWithPercentLabelView.h; sourceTree = "<group>"; };
+		DBDEBDD61963FAB2006BFC2F /* ArthurProgressWithPercentLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurProgressWithPercentLabelView.m; sourceTree = "<group>"; };
+		DBE11DB2194999F700E0BB41 /* AnimationButtonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationButtonGroup.h; sourceTree = "<group>"; };
+		DBE11DB3194999F700E0BB41 /* AnimationButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationButtonGroup.m; sourceTree = "<group>"; };
+		DBE11DB4194999F700E0BB41 /* ArthurAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurAnimationButton.h; sourceTree = "<group>"; };
+		DBE11DB5194999F700E0BB41 /* ArthurAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurAnimationButton.m; sourceTree = "<group>"; };
+		DBE91E9C196148EF00376FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/DeviceName.plist; sourceTree = "<group>"; };
+		DBE91E9D196148F500376FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/DeviceDescription.plist; sourceTree = "<group>"; };
+		DBF0DC261956A1A700357265 /* ArthurApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurApp.h; sourceTree = "<group>"; };
+		DBF0DC271956A1A700357265 /* ArthurApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurApp.m; sourceTree = "<group>"; };
+		DBF0DC2A1956A5FC00357265 /* CDKFUIConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKFUIConstant.h; sourceTree = "<group>"; };
+		DBF690E71973B98E0040ABD1 /* CDKFUserSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKFUserSetting.h; sourceTree = "<group>"; };
+		DBF690E81973B98E0040ABD1 /* CDKFUserSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKFUserSetting.m; sourceTree = "<group>"; };
+		DBF690EA1973BBCD0040ABD1 /* CDKFUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKFUITableViewController.h; sourceTree = "<group>"; };
+		DBF690EB1973BBCD0040ABD1 /* CDKFUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKFUITableViewController.m; sourceTree = "<group>"; };
+		DBF690ED1973D6CD0040ABD1 /* DeviceSportSleepCommandMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSportSleepCommandMap.h; sourceTree = "<group>"; };
+		DBF690EE1973D8CF0040ABD1 /* ArthurByteOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurByteOperation.h; sourceTree = "<group>"; };
+		DBF690EF1973D8CF0040ABD1 /* ArthurByteOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurByteOperation.m; sourceTree = "<group>"; };
+		DBFFA9801946E4900017391C /* ArthurTableViewLocalPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurTableViewLocalPop.h; sourceTree = "<group>"; };
+		DBFFA9811946E4900017391C /* ArthurTableViewLocalPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurTableViewLocalPop.m; sourceTree = "<group>"; };
+		DBFFA99019474C2C0017391C /* ArthurSinglePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurSinglePicker.h; sourceTree = "<group>"; };
+		DBFFA99119474C2C0017391C /* ArthurSinglePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurSinglePicker.m; sourceTree = "<group>"; };
+		DBFFA99219474C2C0017391C /* ArthurSinglePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArthurSinglePicker.xib; sourceTree = "<group>"; };
+		DBFFA99419474C2C0017391C /* ArthurTimePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthurTimePickerController.h; sourceTree = "<group>"; };
+		DBFFA99519474C2C0017391C /* ArthurTimePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthurTimePickerController.m; sourceTree = "<group>"; };
+		DBFFA99619474C2C0017391C /* ArthurTimePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArthurTimePickerController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9B55D41925DEE300BCD608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCD5375197F594F009BAE0E /* libiconv.dylib in Frameworks */,
+				DBCD5373197F5943009BAE0E /* QuartzCore.framework in Frameworks */,
+				DBCD5371197F5938009BAE0E /* CoreVideo.framework in Frameworks */,
+				DBCD536F197F5926009BAE0E /* CoreMedia.framework in Frameworks */,
+				DB450335194FF0F400C6520B /* AVFoundation.framework in Frameworks */,
+				DB03638A1958232600913F43 /* CoreAudio.framework in Frameworks */,
+				DB450337194FF10300C6520B /* AudioToolbox.framework in Frameworks */,
+				DB450333194FF0E800C6520B /* MediaPlayer.framework in Frameworks */,
+				DB9B55DD1925DEE300BCD608 /* CoreGraphics.framework in Frameworks */,
+				DB9B55DF1925DEE300BCD608 /* UIKit.framework in Frameworks */,
+				DB9B55DB1925DEE300BCD608 /* Foundation.framework in Frameworks */,
+				DBF51120FF62452587C26E23 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9B55F51925DEE400BCD608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9B55FA1925DEE400BCD608 /* XCTest.framework in Frameworks */,
+				DB9B55FC1925DEE400BCD608 /* UIKit.framework in Frameworks */,
+				DB9B55FB1925DEE400BCD608 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB05F7ED19B59EC2002314CD /* 体重类 */ = {
+			isa = PBXGroup;
+			children = (
+				DB05F7F119B59F0D002314CD /* DeviceWeightCommandMap.h */,
+				DB05F7EA19B59EBE002314CD /* DeviceWeight.h */,
+				DB05F7EB19B59EBE002314CD /* DeviceWeight.m */,
+			);
+			name = "体重类";
+			sourceTree = "<group>";
+		};
+		DB05F7F419B5ABC6002314CD /* LenovoBand Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DB05F7F219B5ABC3002314CD /* LenovoBand.storyboard */,
+				DB24D88519D854C5008E9380 /* TalkRootViewController.h */,
+				DB24D88619D854C5008E9380 /* TalkRootViewController.m */,
+				DB24D88B19D8588A008E9380 /* TalkRootView.h */,
+				DB24D88C19D8588A008E9380 /* TalkRootView.m */,
+			);
+			name = "LenovoBand Storyboard";
+			sourceTree = "<group>";
+		};
+		DB0D1B9C195C081100923DB5 /* AnimationButtonGroup2 */ = {
+			isa = PBXGroup;
+			children = (
+				DB0D1BA3195C083700923DB5 /* AnimationButtonGroup2.h */,
+				DB0D1B9E195C081100923DB5 /* AnimationButtonGroup2.m */,
+				DB0D1B9F195C081100923DB5 /* ArthurAnimationButton2.h */,
+				DB0D1BA0195C081100923DB5 /* ArthurAnimationButton2.m */,
+			);
+			path = AnimationButtonGroup2;
+			sourceTree = "<group>";
+		};
+		DB0E039B195551C800A63D53 /* CircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				DB0E039C195551E300A63D53 /* ArthurCircleProgress.h */,
+				DB0E039D195551E300A63D53 /* ArthurCircleProgress.m */,
+			);
+			path = CircleProgress;
+			sourceTree = "<group>";
+		};
+		DB0E35B6195D09D5007022CA /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				DB0E35B0195D0739007022CA /* DeviceType.plist */,
+				DB0E35B4195D0863007022CA /* DeviceImagePrefix.plist */,
+				DBD3FBE5195D4A9E002A4076 /* DeviceName.plist */,
+				DBD3FBE9195D4AAB002A4076 /* DeviceDescription.plist */,
+				DB0E35B7195D0A1E007022CA /* CDKFUIDevice.h */,
+				DB0E35B8195D0A1E007022CA /* CDKFUIDevice.m */,
+			);
+			name = Device;
+			sourceTree = "<group>";
+		};
+		DB0F3A4C192AE6E200D27FDD /* ArthurLib */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F3A4D192AE6E200D27FDD /* Arthur */,
+				DB0F3A5E192AE6E200D27FDD /* Base64 */,
+				DB0F3A61192AE6E200D27FDD /* FindFirstResponder */,
+				DB0F3A64192AE6E200D27FDD /* MBProgressHUD */,
+			);
+			path = ArthurLib;
+			sourceTree = SOURCE_ROOT;
+		};
+		DB0F3A4D192AE6E200D27FDD /* Arthur */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A321A1964FBF400EA9153 /* SerialBase */,
+				DBBC64A4195A9000001F9880 /* BlockChain */,
+				DBF0DC251956A19100357265 /* App */,
+				DB8BC33A1945A0F2004B3E8E /* UI */,
+				DBDDCD9019493CD600907D05 /* ArthurGlobalHeader.h */,
+				DBDDCD9119493CD600907D05 /* ArthurGlobalHeader.m */,
+				DBBA8AD5193F6E2D00A3A82D /* ArthurMarco.h */,
+				DBBA8AD6193F6E2D00A3A82D /* ArthurMarco.m */,
+				DB5AB0BE19346DFB0005A9A1 /* ArthurDraw.h */,
+				DB5AB0BF19346DFB0005A9A1 /* ArthurDraw.m */,
+				DBAF2F75192C43F7006BD891 /* ArthurHexOperation.h */,
+				DBAF2F76192C43F7006BD891 /* ArthurHexOperation.m */,
+				DB0F3A4E192AE6E200D27FDD /* ArthurActionSheet.h */,
+				DB0F3A4F192AE6E200D27FDD /* ArthurActionSheet.m */,
+				DB45022C194E8D1900C6520B /* ArthurNormalActionSheet.h */,
+				DB45022D194E8D1900C6520B /* ArthurNormalActionSheet.m */,
+				DB0F3A52192AE6E200D27FDD /* ArthurFile.h */,
+				DB0F3A53192AE6E200D27FDD /* ArthurFile.m */,
+				DB0F3A54192AE6E200D27FDD /* ArthurNetworkOperation.h */,
+				DB0F3A55192AE6E200D27FDD /* ArthurNetworkOperation.m */,
+				DB0F3A56192AE6E200D27FDD /* ArthurNetworkOperation2.h */,
+				DB0F3A57192AE6E200D27FDD /* ArthurNetworkOperation2.m */,
+				DB0F3A58192AE6E200D27FDD /* MNLib.h */,
+				DB0F3A59192AE6E200D27FDD /* MNLib.m */,
+				DB0F3A83192AF05B00D27FDD /* ArthurStringAndObject.h */,
+				DB0F3A84192AF05B00D27FDD /* ArthurStringAndObject.m */,
+				DB0F3A76192AEAFD00D27FDD /* NSArray+NSArrayOperation.h */,
+				DB0F3A77192AEAFD00D27FDD /* NSArray+NSArrayOperation.m */,
+				DB0F3A5A192AE6E200D27FDD /* NSDate+ArthurDate.h */,
+				DB0F3A5B192AE6E200D27FDD /* NSDate+ArthurDate.m */,
+				DB0F3A5C192AE6E200D27FDD /* NSJSONSerialization+ArthurJSON.h */,
+				DB0F3A5D192AE6E200D27FDD /* NSJSONSerialization+ArthurJSON.m */,
+				DB6C61F819371AEC00183A33 /* ArthurUnitChange.h */,
+				DB6C61F919371AEC00183A33 /* ArthurUnitChange.m */,
+				DBF690EE1973D8CF0040ABD1 /* ArthurByteOperation.h */,
+				DBF690EF1973D8CF0040ABD1 /* ArthurByteOperation.m */,
+			);
+			path = Arthur;
+			sourceTree = "<group>";
+		};
+		DB0F3A5E192AE6E200D27FDD /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				DB0DC86E196D0A400047483B /* GTMBase64.h */,
+				DB0DC86F196D0A400047483B /* GTMBase64.m */,
+				DB0DC870196D0A410047483B /* GTMDefines.h */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		DB0F3A61192AE6E200D27FDD /* FindFirstResponder */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F3A62192AE6E200D27FDD /* UIView+FindFirstResponder.h */,
+				DB0F3A63192AE6E200D27FDD /* UIView+FindFirstResponder.m */,
+			);
+			path = FindFirstResponder;
+			sourceTree = "<group>";
+		};
+		DB0F3A64192AE6E200D27FDD /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F3A65192AE6E200D27FDD /* MBProgressHUD.h */,
+				DB0F3A66192AE6E200D27FDD /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DB1A321A1964FBF400EA9153 /* SerialBase */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A321B1964FBF400EA9153 /* ArthurSerialBase.h */,
+				DB1A321C1964FBF400EA9153 /* ArthurSerialBase.m */,
+			);
+			path = SerialBase;
+			sourceTree = "<group>";
+		};
+		DB1A326219652AD100EA9153 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A326319652AD100EA9153 /* LabelGroup */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		DB1A326319652AD100EA9153 /* LabelGroup */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A326419652AD100EA9153 /* ArthurLabelGroup.h */,
+				DB1A326519652AD100EA9153 /* ArthurLabelGroup.m */,
+			);
+			path = LabelGroup;
+			sourceTree = "<group>";
+		};
+		DB1A32681965335200EA9153 /* LKSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A32691965335200EA9153 /* KLSwitch.h */,
+				DB1A326A1965335200EA9153 /* KLSwitch.m */,
+			);
+			path = LKSwitch;
+			sourceTree = "<group>";
+		};
+		DB3BB1F819C170CC00CC5D41 /* 联想手环 */ = {
+			isa = PBXGroup;
+			children = (
+				DB3BB1F519C170C700CC5D41 /* DeviceLenevo.h */,
+				DB3BB1F619C170C700CC5D41 /* DeviceLenevo.m */,
+			);
+			name = "联想手环";
+			sourceTree = "<group>";
+		};
+		DB4421961945D6FA00DEA070 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				DBBE08041974CEDE002C8E10 /* DataAnalyze.h */,
+				DBBE08051974CEDE002C8E10 /* DataAnalyze.m */,
+				DB1CFAFB1951276B003424FD /* CDKFDeviceManager.h */,
+				DB1CFAFC1951276B003424FD /* CDKFDeviceManager.m */,
+				DBCD537D197F9452009BAE0E /* 设备类 */,
+				DBCD537C197F943B009BAE0E /* 硬件类 */,
+			);
+			name = Device;
+			sourceTree = "<group>";
+		};
+		DB4421971945D71900DEA070 /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				DB9B56131925DF2400BCD608 /* HardwareBluetooth.h */,
+				DB9B56141925DF2400BCD608 /* HardwareBluetooth.m */,
+				DB9B56111925DF2400BCD608 /* BLEConnection.h */,
+				DB9B56121925DF2400BCD608 /* BLEConnection.m */,
+			);
+			name = BlueTooth;
+			sourceTree = "<group>";
+		};
+		DB450227194E868100C6520B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				DB450228194E868100C6520B /* UIViewController-BackButtonHandler-master */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		DB450228194E868100C6520B /* UIViewController-BackButtonHandler-master */ = {
+			isa = PBXGroup;
+			children = (
+				DB450229194E868100C6520B /* UIViewController+BackButtonHandler.h */,
+				DB45022A194E868100C6520B /* UIViewController+BackButtonHandler.m */,
+			);
+			path = "UIViewController-BackButtonHandler-master";
+			sourceTree = "<group>";
+		};
+		DB4502EA194F44A600C6520B /* ScreenShoot */ = {
+			isa = PBXGroup;
+			children = (
+				DB4502EB194F44BB00C6520B /* ArthurScreenShoot.h */,
+				DB4502EC194F44BB00C6520B /* ArthurScreenShoot.m */,
+			);
+			path = ScreenShoot;
+			sourceTree = "<group>";
+		};
+		DB6AD5721951F110004EFAE4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DBF0DC2A1956A5FC00357265 /* CDKFUIConstant.h */,
+				DB0E35B6195D09D5007022CA /* Device */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		DB6CAD75195295BC002A5FB3 /* Compatible */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A32681965335200EA9153 /* LKSwitch */,
+				DB6CAD76195295E2002A5FB3 /* ArthurCompatible.h */,
+				DB6CAD77195295E2002A5FB3 /* ArthurCompatible.m */,
+			);
+			path = Compatible;
+			sourceTree = "<group>";
+		};
+		DB8BC33A1945A0F2004B3E8E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A326219652AD100EA9153 /* Group */,
+				DB0E039B195551C800A63D53 /* CircleProgress */,
+				DB8F1C8619552EB8002CFCD4 /* THProgressView */,
+				DB8F1C7E19540DE0002CFCD4 /* UINormal */,
+				DB6CAD75195295BC002A5FB3 /* Compatible */,
+				DB4502EA194F44A600C6520B /* ScreenShoot */,
+				DB450227194E868100C6520B /* Navigation */,
+				DBE11DB1194999F700E0BB41 /* AnimationButtonGroup */,
+				DB0D1B9C195C081100923DB5 /* AnimationButtonGroup2 */,
+				DBDCEAB619482E5600220947 /* Segue */,
+				DBFFA98E19474C2C0017391C /* Picker */,
+				DB8BC33B1945A0F2004B3E8E /* TableView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DB8BC33B1945A0F2004B3E8E /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DBF690EA1973BBCD0040ABD1 /* CDKFUITableViewController.h */,
+				DBF690EB1973BBCD0040ABD1 /* CDKFUITableViewController.m */,
+				DBDDCD8C19493BFB00907D05 /* ArthurFixSectionHeadTableViewController */,
+				DBDCEB0919483AA400220947 /* ArthurSingleSelectTableViewController */,
+				DBFFA9801946E4900017391C /* ArthurTableViewLocalPop.h */,
+				DBFFA9811946E4900017391C /* ArthurTableViewLocalPop.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DB8F1C7E19540DE0002CFCD4 /* UINormal */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F1C7F19540E00002CFCD4 /* ArthurUINormal.h */,
+				DB8F1C8019540E00002CFCD4 /* ArthurUINormal.m */,
+			);
+			path = UINormal;
+			sourceTree = "<group>";
+		};
+		DB8F1C8619552EB8002CFCD4 /* THProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				DBDEBDD51963FAB2006BFC2F /* ArthurProgressWithPercentLabelView.h */,
+				DBDEBDD61963FAB2006BFC2F /* ArthurProgressWithPercentLabelView.m */,
+				DB0E03951955345D00A63D53 /* ArthurProgressView.h */,
+				DB0E03961955345D00A63D53 /* ArthurProgressView.m */,
+				DB8F1C8719552EB8002CFCD4 /* THProgressView.h */,
+				DB8F1C8819552EB8002CFCD4 /* THProgressView.m */,
+			);
+			path = THProgressView;
+			sourceTree = "<group>";
+		};
+		DB9B55CE1925DEE300BCD608 = {
+			isa = PBXGroup;
+			children = (
+				DB9B55E01925DEE300BCD608 /* Weight */,
+				DB9B55FF1925DEE400BCD608 /* WeightTest */,
+				DB9B55D91925DEE300BCD608 /* Frameworks */,
+				DB9B55D81925DEE300BCD608 /* Products */,
+				7C8E7D07E8E7493ABDA08A84 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9B55D81925DEE300BCD608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9B55D71925DEE300BCD608 /* Talk.app */,
+				DB9B55F81925DEE400BCD608 /* TalkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9B55D91925DEE300BCD608 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBCD5374197F594F009BAE0E /* libiconv.dylib */,
+				DBCD5372197F5943009BAE0E /* QuartzCore.framework */,
+				DBCD5370197F5938009BAE0E /* CoreVideo.framework */,
+				DBCD536E197F5926009BAE0E /* CoreMedia.framework */,
+				DB0363891958232600913F43 /* CoreAudio.framework */,
+				DB450336194FF10300C6520B /* AudioToolbox.framework */,
+				DB450334194FF0F400C6520B /* AVFoundation.framework */,
+				DB450332194FF0E800C6520B /* MediaPlayer.framework */,
+				DB9B55DA1925DEE300BCD608 /* Foundation.framework */,
+				DB9B55DC1925DEE300BCD608 /* CoreGraphics.framework */,
+				DB9B55DE1925DEE300BCD608 /* UIKit.framework */,
+				DB9B55F91925DEE400BCD608 /* XCTest.framework */,
+				A0DB8228DAEA4E9BA2649938 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB9B55E01925DEE300BCD608 /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				DB21236D192EF4DB009B8E43 /* CDKFKeeFitConstant.h */,
+				DB9B55E91925DEE300BCD608 /* CDKFAppDelegate.h */,
+				DB9B55EA1925DEE300BCD608 /* CDKFAppDelegate.m */,
+				DB05F7F419B5ABC6002314CD /* LenovoBand Storyboard */,
+				DB6AD5721951F110004EFAE4 /* UI */,
+				DBF690E71973B98E0040ABD1 /* CDKFUserSetting.h */,
+				DBF690E81973B98E0040ABD1 /* CDKFUserSetting.m */,
+				DB4421961945D6FA00DEA070 /* Device */,
+				DB0F3A4C192AE6E200D27FDD /* ArthurLib */,
+				DB9B55F21925DEE300BCD608 /* Images.xcassets */,
+				DBC4BEC61980AE820008E516 /* Images */,
+				DB9B55E11925DEE300BCD608 /* Supporting Files */,
+			);
+			name = Weight;
+			path = KeeFit;
+			sourceTree = "<group>";
+		};
+		DB9B55E11925DEE300BCD608 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9B55E21925DEE300BCD608 /* KeeFit-Info.plist */,
+				DB9B55E31925DEE300BCD608 /* InfoPlist.strings */,
+				DB9B55E61925DEE300BCD608 /* main.m */,
+				DB9B55E81925DEE300BCD608 /* Talk-Prefix.pch */,
+				DB6CAD4C19527582002A5FB3 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB9B55FF1925DEE400BCD608 /* WeightTest */ = {
+			isa = PBXGroup;
+			children = (
+				DB9B56051925DEE400BCD608 /* KeeFitTests.m */,
+				DB9B56001925DEE400BCD608 /* Supporting Files */,
+			);
+			name = WeightTest;
+			path = KeeFitTests;
+			sourceTree = "<group>";
+		};
+		DB9B56001925DEE400BCD608 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9B56011925DEE400BCD608 /* LenovoBandTests-Info.plist */,
+				DB9B56021925DEE400BCD608 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBBC64A4195A9000001F9880 /* BlockChain */ = {
+			isa = PBXGroup;
+			children = (
+				DBBC64A8195A907A001F9880 /* ArthurBlockChain2.h */,
+				DBBC64A9195A907A001F9880 /* ArthurBlockChain2.m */,
+				DBBC64A5195A9000001F9880 /* ArthurBlockChain.h */,
+				DBBC64A6195A9000001F9880 /* ArthurBlockChain.m */,
+			);
+			path = BlockChain;
+			sourceTree = "<group>";
+		};
+		DBC4BEC61980AE820008E516 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DBC4BEC71980AE820008E516 /* btn_csh_0.png */,
+				DBC4BEC81980AE820008E516 /* btn_csh_0@2x.png */,
+				DBC4BEC91980AE820008E516 /* btn_js_0.png */,
+				DBC4BECA1980AE820008E516 /* btn_js_0@2x.png */,
+				DBC4BECB1980AE820008E516 /* ic_arro2.png */,
+				DBC4BECC1980AE820008E516 /* ic_arrow@2x.png */,
+				DBC4BECD1980AE820008E516 /* ic_back.png */,
+				DBC4BECE1980AE820008E516 /* ic_back@2x.png */,
+				DBC4BECF1980AE820008E516 /* ic_burn.png */,
+				DBC4BED01980AE820008E516 /* ic_burn@2x.png */,
+				DBC4BED11980AE820008E516 /* ic_settings.png */,
+				DBC4BED21980AE820008E516 /* ic_settings@2x.png */,
+				DBC4BED31980AE820008E516 /* ic_speed.png */,
+				DBC4BED41980AE820008E516 /* ic_speed@2x.png */,
+				DBC4BED51980AE820008E516 /* ic_time.png */,
+				DBC4BED61980AE820008E516 /* ic_time@2x.png */,
+				DBC4BED71980AE820008E516 /* pic_bg.png */,
+				DBC4BED81980AE820008E516 /* pic_bg@2x.png */,
+				DBC4BED91980AE820008E516 /* pic_burn.png */,
+				DBC4BEDA1980AE820008E516 /* pic_burn@2x.png */,
+				DBC4BEDB1980AE820008E516 /* pic_speed.png */,
+				DBC4BEDC1980AE820008E516 /* pic_speed@2x.png */,
+				DBC4BEDD1980AE820008E516 /* pic_time.png */,
+				DBC4BEDE1980AE820008E516 /* pic_time@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DBCD537C197F943B009BAE0E /* 硬件类 */ = {
+			isa = PBXGroup;
+			children = (
+				DBC734581973A770000401BC /* HardwareBase.h */,
+				DBC734591973A770000401BC /* HardwareBase.m */,
+				DB4421971945D71900DEA070 /* BlueTooth */,
+			);
+			name = "硬件类";
+			sourceTree = "<group>";
+		};
+		DBCD537D197F9452009BAE0E /* 设备类 */ = {
+			isa = PBXGroup;
+			children = (
+				DBCD5377197F8FA3009BAE0E /* DeviceDelegate.h */,
+				DBCD5378197F9346009BAE0E /* DeviceBase.h */,
+				DBCD5379197F9346009BAE0E /* DeviceBase.m */,
+				DB05F7ED19B59EC2002314CD /* 体重类 */,
+				DBCD537E197F9483009BAE0E /* 运动睡眠类 */,
+				DBCD537F197F94AB009BAE0E /* 跑步机类 */,
+				DB3BB1F819C170CC00CC5D41 /* 联想手环 */,
+			);
+			name = "设备类";
+			sourceTree = "<group>";
+		};
+		DBCD537E197F9483009BAE0E /* 运动睡眠类 */ = {
+			isa = PBXGroup;
+			children = (
+				DBF690ED1973D6CD0040ABD1 /* DeviceSportSleepCommandMap.h */,
+				DB61E747193576B100F856B0 /* DeviceSportSleep.h */,
+				DB61E748193576B100F856B0 /* DeviceSportSleep.m */,
+			);
+			name = "运动睡眠类";
+			sourceTree = "<group>";
+		};
+		DBCD537F197F94AB009BAE0E /* 跑步机类 */ = {
+			isa = PBXGroup;
+			children = (
+				DBCD5384197FA22E009BAE0E /* DeviceTreadmillManager.h */,
+				DBCD5385197FA22E009BAE0E /* DeviceTreadmillManager.m */,
+				DBCD5380197F9657009BAE0E /* DeviceTreadmillCommandMap.h */,
+				DBCD5381197F9B10009BAE0E /* DeviceTreadmill.h */,
+				DBCD5382197F9B10009BAE0E /* DeviceTreadmill.m */,
+			);
+			name = "跑步机类";
+			sourceTree = "<group>";
+		};
+		DBDCEAB619482E5600220947 /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				DBDCEAB719482E5600220947 /* ArthurDialogSegue */,
+			);
+			path = Segue;
+			sourceTree = "<group>";
+		};
+		DBDCEAB719482E5600220947 /* ArthurDialogSegue */ = {
+			isa = PBXGroup;
+			children = (
+				DBDCEAB819482E5600220947 /* ArthurDialogSegue.h */,
+				DBDCEAB919482E5600220947 /* ArthurDialogSegue.m */,
+			);
+			path = ArthurDialogSegue;
+			sourceTree = "<group>";
+		};
+		DBDCEB0919483AA400220947 /* ArthurSingleSelectTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBDCEB0A19483AA400220947 /* ArthurSingleSelectTableViewController.h */,
+				DBDCEB0B19483AA400220947 /* ArthurSingleSelectTableViewController.m */,
+				DBDCEB0C19483AA400220947 /* ArthurSingleSelectTableViewController.xib */,
+			);
+			path = ArthurSingleSelectTableViewController;
+			sourceTree = "<group>";
+		};
+		DBDDCD8C19493BFB00907D05 /* ArthurFixSectionHeadTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBDDCD8D19493C1300907D05 /* ArthurFixSectionHeadTableViewController.h */,
+				DBDDCD8E19493C1300907D05 /* ArthurFixSectionHeadTableViewController.m */,
+			);
+			path = ArthurFixSectionHeadTableViewController;
+			sourceTree = "<group>";
+		};
+		DBE11DB1194999F700E0BB41 /* AnimationButtonGroup */ = {
+			isa = PBXGroup;
+			children = (
+				DBE11DB2194999F700E0BB41 /* AnimationButtonGroup.h */,
+				DBE11DB3194999F700E0BB41 /* AnimationButtonGroup.m */,
+				DBE11DB4194999F700E0BB41 /* ArthurAnimationButton.h */,
+				DBE11DB5194999F700E0BB41 /* ArthurAnimationButton.m */,
+			);
+			path = AnimationButtonGroup;
+			sourceTree = "<group>";
+		};
+		DBF0DC251956A19100357265 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DBF0DC261956A1A700357265 /* ArthurApp.h */,
+				DBF0DC271956A1A700357265 /* ArthurApp.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DBFFA98E19474C2C0017391C /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				DBFFA98F19474C2C0017391C /* SinglePicker */,
+				DBFFA99319474C2C0017391C /* TImePicker */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		DBFFA98F19474C2C0017391C /* SinglePicker */ = {
+			isa = PBXGroup;
+			children = (
+				DBFFA99019474C2C0017391C /* ArthurSinglePicker.h */,
+				DBFFA99119474C2C0017391C /* ArthurSinglePicker.m */,
+				DBFFA99219474C2C0017391C /* ArthurSinglePicker.xib */,
+				DBDCEB19194858F400220947 /* ArthurDialogSinglePickerViewController.h */,
+				DBDCEB1A194858F400220947 /* ArthurDialogSinglePickerViewController.m */,
+				DBDCEB1B194858F400220947 /* ArthurDialogSinglePickerViewController.xib */,
+			);
+			path = SinglePicker;
+			sourceTree = "<group>";
+		};
+		DBFFA99319474C2C0017391C /* TImePicker */ = {
+			isa = PBXGroup;
+			children = (
+				DBFFA99419474C2C0017391C /* ArthurTimePickerController.h */,
+				DBFFA99519474C2C0017391C /* ArthurTimePickerController.m */,
+				DBFFA99619474C2C0017391C /* ArthurTimePickerController.xib */,
+				DBDDCD93194944BB00907D05 /* ArthurDialogTimePickerController.h */,
+				DBDDCD94194944BB00907D05 /* ArthurDialogTimePickerController.m */,
+				DBDDCD95194944BB00907D05 /* ArthurDialogTimePickerController.xib */,
+			);
+			path = TImePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9B55D61925DEE300BCD608 /* Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9B56091925DEE400BCD608 /* Build configuration list for PBXNativeTarget "Talk" */;
+			buildPhases = (
+				B757D2E86C794BD492AA080F /* Check Pods Manifest.lock */,
+				DB9B55D31925DEE300BCD608 /* Sources */,
+				DB9B55D41925DEE300BCD608 /* Frameworks */,
+				DB9B55D51925DEE300BCD608 /* Resources */,
+				0F23C9810FB64A63BF02C8D7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Talk;
+			productName = KeeFit;
+			productReference = DB9B55D71925DEE300BCD608 /* Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB9B55F71925DEE400BCD608 /* TalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9B560C1925DEE400BCD608 /* Build configuration list for PBXNativeTarget "TalkTests" */;
+			buildPhases = (
+				DB9B55F41925DEE400BCD608 /* Sources */,
+				DB9B55F51925DEE400BCD608 /* Frameworks */,
+				DB9B55F61925DEE400BCD608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9B55FE1925DEE400BCD608 /* PBXTargetDependency */,
+			);
+			name = TalkTests;
+			productName = KeeFitTests;
+			productReference = DB9B55F81925DEE400BCD608 /* TalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9B55CF1925DEE300BCD608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CDKF;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = codoon;
+				TargetAttributes = {
+					DB9B55D61925DEE300BCD608 = {
+						DevelopmentTeam = BZRYBT6R5G;
+					};
+					DB9B55F71925DEE400BCD608 = {
+						TestTargetID = DB9B55D61925DEE300BCD608;
+					};
+				};
+			};
+			buildConfigurationList = DB9B55D21925DEE300BCD608 /* Build configuration list for PBXProject "Talk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = DB9B55CE1925DEE300BCD608;
+			productRefGroup = DB9B55D81925DEE300BCD608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9B55D61925DEE300BCD608 /* Talk */,
+				DB9B55F71925DEE400BCD608 /* TalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9B55D51925DEE300BCD608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0E35B5195D0863007022CA /* DeviceImagePrefix.plist in Resources */,
+				DBDCEB1D194858F400220947 /* ArthurDialogSinglePickerViewController.xib in Resources */,
+				DBC4BEEB1980AE820008E516 /* ic_speed.png in Resources */,
+				DBFFA99819474C2C0017391C /* ArthurSinglePicker.xib in Resources */,
+				DBC4BEE91980AE820008E516 /* ic_settings.png in Resources */,
+				DB9B55F31925DEE300BCD608 /* Images.xcassets in Resources */,
+				DBC4BEF61980AE820008E516 /* pic_time@2x.png in Resources */,
+				DBC4BEEF1980AE820008E516 /* pic_bg.png in Resources */,
+				DBC4BEE61980AE820008E516 /* ic_back@2x.png in Resources */,
+				DBC4BEF11980AE820008E516 /* pic_burn.png in Resources */,
+				DB6CAD4A19527582002A5FB3 /* Localizable.strings in Resources */,
+				DBC4BEEE1980AE820008E516 /* ic_time@2x.png in Resources */,
+				DBC4BEE41980AE820008E516 /* ic_arrow@2x.png in Resources */,
+				DBC4BEF01980AE820008E516 /* pic_bg@2x.png in Resources */,
+				DBC4BEE11980AE820008E516 /* btn_js_0.png in Resources */,
+				DBC4BEDF1980AE820008E516 /* btn_csh_0.png in Resources */,
+				DB05F7F319B5ABC3002314CD /* LenovoBand.storyboard in Resources */,
+				DBC4BEE81980AE820008E516 /* ic_burn@2x.png in Resources */,
+				DBC4BEE01980AE820008E516 /* btn_csh_0@2x.png in Resources */,
+				DBC4BEE31980AE820008E516 /* ic_arro2.png in Resources */,
+				DBFFA99A19474C2C0017391C /* ArthurTimePickerController.xib in Resources */,
+				DBD3FBE7195D4AAB002A4076 /* DeviceDescription.plist in Resources */,
+				DBC4BEEC1980AE820008E516 /* ic_speed@2x.png in Resources */,
+				DB0E35B1195D0739007022CA /* DeviceType.plist in Resources */,
+				DBC4BEE71980AE820008E516 /* ic_burn.png in Resources */,
+				DBC4BEE21980AE820008E516 /* btn_js_0@2x.png in Resources */,
+				DB9B55E51925DEE300BCD608 /* InfoPlist.strings in Resources */,
+				DBDDCD97194944BB00907D05 /* ArthurDialogTimePickerController.xib in Resources */,
+				DBC4BEF41980AE820008E516 /* pic_speed@2x.png in Resources */,
+				DBD3FBE3195D4A9E002A4076 /* DeviceName.plist in Resources */,
+				DBC4BEF51980AE820008E516 /* pic_time.png in Resources */,
+				DBC4BEE51980AE820008E516 /* ic_back.png in Resources */,
+				DBDCEB0E19483AA400220947 /* ArthurSingleSelectTableViewController.xib in Resources */,
+				DBC4BEF21980AE820008E516 /* pic_burn@2x.png in Resources */,
+				DBC4BEF31980AE820008E516 /* pic_speed.png in Resources */,
+				DBC4BEEA1980AE820008E516 /* ic_settings@2x.png in Resources */,
+				DBC4BEED1980AE820008E516 /* ic_time.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9B55F61925DEE400BCD608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9B56041925DEE400BCD608 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F23C9810FB64A63BF02C8D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B757D2E86C794BD492AA080F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9B55D31925DEE300BCD608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8F1C8119540E00002CFCD4 /* ArthurUINormal.m in Sources */,
+				DBAF2F77192C43F7006BD891 /* ArthurHexOperation.m in Sources */,
+				DB6C61FA19371AEC00183A33 /* ArthurUnitChange.m in Sources */,
+				DBBC64AA195A907A001F9880 /* ArthurBlockChain2.m in Sources */,
+				DB4502ED194F44BB00C6520B /* ArthurScreenShoot.m in Sources */,
+				DBE11DB7194999F700E0BB41 /* ArthurAnimationButton.m in Sources */,
+				DB1A326B1965335200EA9153 /* KLSwitch.m in Sources */,
+				DBFFA99719474C2C0017391C /* ArthurSinglePicker.m in Sources */,
+				DB0F3A69192AE6E200D27FDD /* ArthurFile.m in Sources */,
+				DB0F3A6A192AE6E200D27FDD /* ArthurNetworkOperation.m in Sources */,
+				DBC7345A1973A770000401BC /* HardwareBase.m in Sources */,
+				DB0F3A71192AE6E200D27FDD /* MBProgressHUD.m in Sources */,
+				DBBA8AD7193F6E2D00A3A82D /* ArthurMarco.m in Sources */,
+				DBDCEABA19482E5600220947 /* ArthurDialogSegue.m in Sources */,
+				DB0D1BA1195C081100923DB5 /* AnimationButtonGroup2.m in Sources */,
+				DBCD5383197F9B10009BAE0E /* DeviceTreadmill.m in Sources */,
+				DB0F3A6E192AE6E200D27FDD /* NSJSONSerialization+ArthurJSON.m in Sources */,
+				DBDEBDD71963FAB2006BFC2F /* ArthurProgressWithPercentLabelView.m in Sources */,
+				DBE11DB6194999F700E0BB41 /* AnimationButtonGroup.m in Sources */,
+				DB1A326619652AD100EA9153 /* ArthurLabelGroup.m in Sources */,
+				DB1CFAFD1951276B003424FD /* CDKFDeviceManager.m in Sources */,
+				DBDDCD96194944BB00907D05 /* ArthurDialogTimePickerController.m in Sources */,
+				DB0F3A6B192AE6E200D27FDD /* ArthurNetworkOperation2.m in Sources */,
+				DBF690E91973B98E0040ABD1 /* CDKFUserSetting.m in Sources */,
+				DB9B56161925DF2400BCD608 /* BLEConnection.m in Sources */,
+				DB9B55EB1925DEE300BCD608 /* CDKFAppDelegate.m in Sources */,
+				DB8F1C8919552EB8002CFCD4 /* THProgressView.m in Sources */,
+				DB5AB0C019346DFB0005A9A1 /* ArthurDraw.m in Sources */,
+				DBBC64A7195A9000001F9880 /* ArthurBlockChain.m in Sources */,
+				DB24D88719D854C5008E9380 /* TalkRootViewController.m in Sources */,
+				DB0DC871196D0A410047483B /* GTMBase64.m in Sources */,
+				DB45022B194E868100C6520B /* UIViewController+BackButtonHandler.m in Sources */,
+				DB05F7EC19B59EBE002314CD /* DeviceWeight.m in Sources */,
+				DBCD5386197FA22E009BAE0E /* DeviceTreadmillManager.m in Sources */,
+				DB0F3A6D192AE6E200D27FDD /* NSDate+ArthurDate.m in Sources */,
+				DB0E03971955345D00A63D53 /* ArthurProgressView.m in Sources */,
+				DB61E749193576B100F856B0 /* DeviceSportSleep.m in Sources */,
+				DBDDCD8F19493C1300907D05 /* ArthurFixSectionHeadTableViewController.m in Sources */,
+				DBF690EC1973BBCD0040ABD1 /* CDKFUITableViewController.m in Sources */,
+				DBBE08061974CEDE002C8E10 /* DataAnalyze.m in Sources */,
+				DB0E039E195551E300A63D53 /* ArthurCircleProgress.m in Sources */,
+				DB6CAD78195295E2002A5FB3 /* ArthurCompatible.m in Sources */,
+				DB3BB1F719C170C700CC5D41 /* DeviceLenevo.m in Sources */,
+				DB0F3A85192AF05B00D27FDD /* ArthurStringAndObject.m in Sources */,
+				DB0D1BA2195C081100923DB5 /* ArthurAnimationButton2.m in Sources */,
+				DBDCEB0D19483AA400220947 /* ArthurSingleSelectTableViewController.m in Sources */,
+				DB0E35B9195D0A1E007022CA /* CDKFUIDevice.m in Sources */,
+				DBF690F01973D8CF0040ABD1 /* ArthurByteOperation.m in Sources */,
+				DB0F3A78192AEAFD00D27FDD /* NSArray+NSArrayOperation.m in Sources */,
+				DB9B55E71925DEE300BCD608 /* main.m in Sources */,
+				DBDDCD9219493CD600907D05 /* ArthurGlobalHeader.m in Sources */,
+				DB45022E194E8D1900C6520B /* ArthurNormalActionSheet.m in Sources */,
+				DB24D88D19D8588A008E9380 /* TalkRootView.m in Sources */,
+				DB0F3A67192AE6E200D27FDD /* ArthurActionSheet.m in Sources */,
+				DBFFA9821946E4900017391C /* ArthurTableViewLocalPop.m in Sources */,
+				DBCD537A197F9346009BAE0E /* DeviceBase.m in Sources */,
+				DB0F3A6C192AE6E200D27FDD /* MNLib.m in Sources */,
+				DB9B56171925DF2400BCD608 /* HardwareBluetooth.m in Sources */,
+				DB0F3A70192AE6E200D27FDD /* UIView+FindFirstResponder.m in Sources */,
+				DB1A321D1964FBF400EA9153 /* ArthurSerialBase.m in Sources */,
+				DBFFA99919474C2C0017391C /* ArthurTimePickerController.m in Sources */,
+				DBDCEB1C194858F400220947 /* ArthurDialogSinglePickerViewController.m in Sources */,
+				DBF0DC281956A1A700357265 /* ArthurApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9B55F41925DEE400BCD608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9B56061925DEE400BCD608 /* KeeFitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9B55FE1925DEE400BCD608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9B55D61925DEE300BCD608 /* Talk */;
+			targetProxy = DB9B55FD1925DEE400BCD608 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB6CAD4C19527582002A5FB3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD3FBEF195D4C96002A4076 /* zh-Hans */,
+				DBD3FBF0195D6B84002A4076 /* en */,
+				DBD3FBF4195D727D002A4076 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DB9B55E31925DEE300BCD608 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9B55E41925DEE300BCD608 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB9B56021925DEE400BCD608 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9B56031925DEE400BCD608 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBD3FBE5195D4A9E002A4076 /* DeviceName.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD3FBE4195D4A9E002A4076 /* en */,
+				DBD3FBE6195D4AA4002A4076 /* zh-Hans */,
+				DBE91E9C196148EF00376FC9 /* Base */,
+			);
+			name = DeviceName.plist;
+			sourceTree = "<group>";
+		};
+		DBD3FBE9195D4AAB002A4076 /* DeviceDescription.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD3FBE8195D4AAB002A4076 /* en */,
+				DBD3FBEA195D4AAF002A4076 /* zh-Hans */,
+				DBE91E9D196148F500376FC9 /* Base */,
+			);
+			name = DeviceDescription.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB9B56071925DEE400BCD608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		DB9B56081925DEE400BCD608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		DB9B560A1925DEE400BCD608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8E7D07E8E7493ABDA08A84 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeeFit/Talk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "KeeFit/KeeFit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArthurLib/Arthur/Share/UMengShare/UMSocial_Sdk_3.3.8",
+					"$(PROJECT_DIR)/ArthurLib/Arthur/Share/UMengShare/UMSocial_Sdk_Extra_Frameworks/Facebook",
+					"$(PROJECT_DIR)/ArthurLib/Arthur/Share/UMengShare/UMSocial_Sdk_Extra_Frameworks/Instagram",
+					"$(PROJECT_DIR)/ArthurLib/Arthur/Share/UMengShare/UMSocial_Sdk_Extra_Frameworks/Twitter",
+					"$(PROJECT_DIR)/ArthurLib/Arthur/Share/UMengShare/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/ArthurLib/ZBarSDK",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.minicoder.Talk;
+				PRODUCT_NAME = Talk;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB9B560B1925DEE400BCD608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8E7D07E8E7493ABDA08A84 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeeFit/Talk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "KeeFit/KeeFit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArthurLib/Arthur/Share/UMengShare/UMSocial_Sdk_3.3.8",
+					"$(PROJECT_DIR)/ArthurLib/Arthur/Share/UMengShare/UMSocial_Sdk_Extra_Frameworks/Facebook",
+					"$(PROJECT_DIR)/ArthurLib/Arthur/Share/UMengShare/UMSocial_Sdk_Extra_Frameworks/Instagram",
+					"$(PROJECT_DIR)/ArthurLib/Arthur/Share/UMengShare/UMSocial_Sdk_Extra_Frameworks/Twitter",
+					"$(PROJECT_DIR)/ArthurLib/Arthur/Share/UMengShare/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/ArthurLib/ZBarSDK",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.minicoder.Talk;
+				PRODUCT_NAME = Talk;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB9B560D1925DEE400BCD608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HardwareCommunication.app/HardwareCommunication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeeFit/HardwareCommunication-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = "KeeFitTests/LenovoBandTests-Info.plist";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = TalkTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB9B560E1925DEE400BCD608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HardwareCommunication.app/HardwareCommunication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeeFit/HardwareCommunication-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = "KeeFitTests/LenovoBandTests-Info.plist";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = TalkTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9B55D21925DEE300BCD608 /* Build configuration list for PBXProject "Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9B56071925DEE400BCD608 /* Debug */,
+				DB9B56081925DEE400BCD608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9B56091925DEE400BCD608 /* Build configuration list for PBXNativeTarget "Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9B560A1925DEE400BCD608 /* Debug */,
+				DB9B560B1925DEE400BCD608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9B560C1925DEE400BCD608 /* Build configuration list for PBXNativeTarget "TalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9B560D1925DEE400BCD608 /* Debug */,
+				DB9B560E1925DEE400BCD608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9B55CF1925DEE300BCD608 /* Project object */;
+}

@@ -1,0 +1,35 @@
+PODS:
+  - Archimedes (1.1)
+  - FMDB (2.3):
+    - FMDB/standard
+  - FMDB/common (2.3)
+  - FMDB/standard (2.3):
+    - FMDB/common
+  - JBChartView (2.5.5)
+  - LKDBHelper (1.4):
+    - FMDB
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - ReactiveCocoaLayout (0.4):
+    - Archimedes
+    - ReactiveCocoa (~> 2.0)
+
+DEPENDENCIES:
+  - JBChartView (~> 2.5.5)
+  - LKDBHelper (~> 1.4)
+  - ReactiveCocoaLayout (~> 0.4)
+
+SPEC CHECKSUMS:
+  Archimedes: f2de3a19892908a92c9ad4d23f6776b377f7ed28
+  FMDB: 31ec26773c7f7b7890a6038235a1f2bbd933a7cb
+  JBChartView: 666486d81dd16fa0cfac7bc32b4b70d6c52e7162
+  LKDBHelper: b337d5cdfba9d0b78e74992e1ca8bdc8b9fc7928
+  ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
+  ReactiveCocoaLayout: 55d636c5c01e4a154173746f2bb9238ac7184f0d
+
+COCOAPODS: 0.32.1

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1D11F901-2526-452E-8B67-14E2E2284F3E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LenovoBand</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>71CF691A8F27B23609DDDE545404C246CD279D07</key>
+		<string>https://coding.net/lichen/LenovoBand.git</string>
+		<key>DE8AB00B255B63CF1646EB7FB384CE1D6229C852</key>
+		<string>https://git.oschina.net/lichenarthur/lichen.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>project/聊天/Talk_0.0.0/LenovoBand.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>71CF691A8F27B23609DDDE545404C246CD279D07</key>
+		<string>../../../../../LenovoBand</string>
+		<key>DE8AB00B255B63CF1646EB7FB384CE1D6229C852</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/lichenarthur/lichen.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE8AB00B255B63CF1646EB7FB384CE1D6229C852</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71CF691A8F27B23609DDDE545404C246CD279D07</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LenovoBand</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE8AB00B255B63CF1646EB7FB384CE1D6229C852</string>
+			<key>IDESourceControlWCCName</key>
+			<string>oschina</string>
+		</dict>
+	</array>
+</dict>
+</plist>
